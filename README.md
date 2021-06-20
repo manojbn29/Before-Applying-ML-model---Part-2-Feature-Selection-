@@ -13,9 +13,10 @@ There are so many types of feature selection below are some:
 
             a) For regression: f_regression, mutual_info_regression
             b) For classification: chi2, f_classif, mutual_info_classif
-            
-3) Recursive feature elimination
-4) Feature selection using SelectFromModel:
+ 
+3) Correlation Matrix (Using Pearson correlation)
+4) Recursive feature elimination
+5) Feature selection using SelectFromModel:
 
             a) L1-based feature selection:
                     a.1) Regression : Lasso
@@ -23,8 +24,8 @@ There are so many types of feature selection below are some:
                     
             b) Tree-based feature selection
             
-5) Sequential Feature Selection
-6) Feature selection as part of a pipeline
+6) Sequential Feature Selection
+7) Feature selection as part of a pipeline
 
 
 ## There are so many techniques to extract the features:
